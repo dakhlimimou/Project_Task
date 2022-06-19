@@ -1,0 +1,11 @@
+{
+  "name": "new_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "project1.js",
+  "scripts": {
+    "dev": "nodemon project1.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
