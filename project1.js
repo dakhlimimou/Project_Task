@@ -4,7 +4,7 @@ const app = express();
 const mongoose = require("mongoose");
 //DB connection
 mongoose.connect(
-	"mongodb+srv://Dakhli_Riadh:fM1S2CvC565MvSD8@cluster0.zma3mog.mongodb.net/?retryWrites=true&w=majority"
+	"mongodb+srv://cluster0.zma3mog.mongodb.net/?retryWrites=true&w=majority"
 );
 mongoose.connection.on("connected", () => {
 	console.log("DB connected");
